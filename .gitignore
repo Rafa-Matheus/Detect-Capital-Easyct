@@ -1,0 +1,27 @@
+# Rider-specific files
+.idea/
+*.sln.iml
+
+# Visual Studio / .NET
+bin/
+obj/
+*.user
+*.suo
+*.csproj.user
+
+# Build artifacts
+*.exe
+*.dll
+*.pdb
+
+# Dependency caches
+.vscode/
+.nuget/
+packages/
+
+# Logs
+*.log
+
+# Rider workspace settings
+.idea/
+*.sln.iml
