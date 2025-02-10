@@ -35,3 +35,13 @@ static (bool isValid, string errorMessage) InputValidation(string word)
     else
         return (isValid: true, errorMessage: string.Empty);
 }
+
+
+public class Solution {
+    public bool DetectCapitalUse(string word)
+    {
+        return word.All(char.IsUpper) ||
+               word.All(char.IsLower) ||
+               char.IsUpper(word[0]) && word.Skip(1).All(char.IsLower);
+    }
+}
