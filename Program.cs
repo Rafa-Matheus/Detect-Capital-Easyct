@@ -25,6 +25,9 @@ else
     Console.WriteLine(message);
 }
 
+Console.WriteLine("\nAperte qualquer tecla para sair");
+Console.ReadKey();
+
 
 static (bool isValid, string errorMessage) InputValidation(string word)
 {
